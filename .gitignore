@@ -1,0 +1,18 @@
+# Archivos compilados de Java
+*.class
+
+# Archivos de log
+*.log
+
+# Archivos temporales
+*.tmp
+*.bak
+
+# Directorios de IDE
+.vscode/
+.idea/
+*.iml
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
