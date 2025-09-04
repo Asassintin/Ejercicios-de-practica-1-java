@@ -14,8 +14,6 @@ Estos ejercicios son ideales para principiantes que están aprendiendo Java y qu
 
 ## 📋 Descripción del Contenido
 
-## 📋 Descripción del Contenido
-
 ### Archivos Java
 
 1. **`IntegerOperations.java`**
@@ -230,7 +228,7 @@ Ejercicios-de-practica-1-java/
 
 ## 🎓 Objetivos de Aprendizaje
 
-Al completar estos ejercicios, los estudiantes habrán practicado:
+Al completar estos ejercicios, habrás practicado:
 
 1. **Declaración y uso de variables** con diferentes tipos de datos
 2. **Operaciones matemáticas básicas** y su implementación en Java
@@ -240,29 +238,3 @@ Al completar estos ejercicios, los estudiantes habrán practicado:
 6. **Conceptos de trigonometría** aplicados en programación
 7. **Generación de números aleatorios** para aplicaciones dinámicas
 
-## 🤝 Contribuciones y Uso
-
-### Para Estudiantes
-- Estos ejercicios están diseñados para uso educativo
-- Siéntete libre de modificar los valores y experimentar
-- Intenta crear variaciones de los ejercicios para practicar más
-
-### Para Instructores
-- Los ejercicios pueden ser utilizados como material de clase
-- Cada archivo es independiente y puede ser asignado por separado
-- Los comentarios en el código ayudan a explicar los conceptos
-
-### Mejoras y Sugerencias
-- Las sugerencias y mejoras son bienvenidas
-- Puedes crear **issues** para reportar problemas
-- Los **pull requests** con mejoras son apreciados
-
-## 📜 Licencia
-
-Este proyecto está destinado para uso educativo. Siéntete libre de usar, modificar y distribuir el código para fines de aprendizaje.
-
----
-
-**¡Feliz programación! 🚀**
-
-*Recuerda: La práctica hace al maestro. Experimenta con los valores, modifica el código y observa cómo cambian los resultados.*
