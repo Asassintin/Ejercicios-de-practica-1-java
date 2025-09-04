@@ -1,116 +1,268 @@
 # Ejercicios de Práctica 1 — Java
 
-Colección de ejercicios básicos en Java para practicar tipos primitivos, operaciones matemáticas, casting, caracteres, trigonometría y utilidades de `Math`.
+Este repositorio contiene una colección de ejercicios básicos en Java diseñados para practicar conceptos fundamentales del lenguaje como:
 
-## Novedades y cambios
+- Tipos primitivos de datos
+- Operaciones matemáticas básicas
+- Casting y conversión de tipos
+- Manejo de caracteres y valores ASCII
+- Operaciones trigonométricas
+- Uso de la clase `Math` y sus utilidades
+- Entrada y salida básica con `System.out`
 
-- Añadidos: `CircleMath.java`, `HypotenuseCalculator.java`, `RandomNumberGenerator.java`, `TrigonometryExercise.java`.
-- Actualizado README para reflejar los archivos reales y comandos en Windows PowerShell.
+Estos ejercicios son ideales para principiantes que están aprendiendo Java y quieren reforzar los conceptos básicos del lenguaje.
 
-## Ejercicios incluidos
+## 📋 Descripción del Contenido
 
-- `IntegerOperations.java` — Operaciones con enteros: suma, resta, multiplicación, división, módulo.
-- `FloatingPointOperations.java` — Cálculos con punto flotante; área de un círculo con `float`/`double`.
-- `TypeCastingExercise.java` — Conversión de tipos entre `double` ↔ `int`.
-- `CharBooleanExercise.java` — Uso de `char`, conversión a ASCII y booleanos.
-- `CircleMath.java` — Circunferencia y área usando `Math.PI` y formato con `printf`.
-- `HypotenuseCalculator.java` — Hipotenusa con Pitágoras usando `Math.pow` y `Math.sqrt`.
-- `RandomNumberGenerator.java` — Número aleatorio en [0.0, 1.0) con `Math.random()`.
-- `TrigonometryExercise.java` — Grados → radianes, seno y coseno con `Math.toRadians`, `Math.sin`, `Math.cos`.
+## 📋 Descripción del Contenido
 
-## Requisitos
+### Archivos Java
 
-- JDK 8 o superior
-- Windows/macOS/Linux (instrucciones abajo con PowerShell para Windows)
-- Editor/IDE opcional (VS Code, IntelliJ, Eclipse)
+1. **`IntegerOperations.java`**
+   - Operaciones básicas con números enteros
+   - Suma, resta, multiplicación, división y módulo
+   - Variables: a=30, b=15, c=10
 
-## Cómo compilar y ejecutar (Windows PowerShell)
+2. **`FloatingPointOperations.java`**
+   - Cálculos con números de punto flotante
+   - Calcula el área de un círculo usando `float` y `double`
+   - Radio: 10.6, PI: 3.14159f
 
-En PowerShell, dentro de la carpeta del proyecto:
+3. **`TypeCastingExercise.java`**
+   - Conversión de tipos entre `double` e `int`
+   - Casting explícito e implícito
+
+4. **`CharBooleanExercise.java`**
+   - Manejo de caracteres (`char`)
+   - Conversión de caracteres a valores ASCII
+   - Uso de variables booleanas
+
+5. **`CircleMath.java`**
+   - Cálculo de circunferencia y área usando `Math.PI`
+   - Uso de `printf` para formato de salida
+   - Radio: 7.5
+
+6. **`HypotenuseCalculator.java`**
+   - Cálculo de hipotenusa usando el teorema de Pitágoras
+   - Uso de `Math.pow` y `Math.sqrt`
+
+7. **`RandomNumberGenerator.java`**
+   - Generación de números aleatorios usando `Math.random()`
+   - Números en el rango [0.0, 1.0)
+
+8. **`TrigonometryExercise.java`**
+   - Conversión de grados a radianes
+   - Cálculo de seno y coseno
+   - Uso de `Math.toRadians`, `Math.sin`, `Math.cos`
+
+### Otros Archivos
+
+- **`Ejercicios de Práctica 1.docx`** - Documento con las instrucciones originales de los ejercicios
+- **`README.md`** - Este archivo de documentación
+
+## ⚙️ Requisitos del Sistema
+
+- **Java Development Kit (JDK)** 8 o superior
+- **Sistema Operativo:** Windows, macOS o Linux
+- **Terminal/Línea de comandos:** PowerShell (Windows), Terminal (macOS/Linux)
+- **Editor/IDE (opcional):** VS Code, IntelliJ IDEA, Eclipse, NetBeans
+
+## 🚀 Cómo Compilar y Ejecutar
+
+### En Windows (PowerShell)
+
+Abre PowerShell y navega a la carpeta del proyecto:
 
 ```powershell
-# Compilar todos los archivos
-javac *.java
+cd "ruta\a\tu\proyecto\Ejercicios-de-practica-1-java"
+```
 
-# Ejecutar un ejercicio (ejemplos)
+#### Compilar todos los archivos:
+```powershell
+javac *.java
+```
+
+#### Ejecutar un ejercicio específico:
+```powershell
+# Ejecutar operaciones con enteros
 java IntegerOperations
+
+# Ejecutar operaciones con punto flotante
 java FloatingPointOperations
+
+# Ejecutar ejercicio de casting
 java TypeCastingExercise
+
+# Ejecutar ejercicio de caracteres y booleanos
 java CharBooleanExercise
+
+# Ejecutar cálculos de círculo con Math.PI
 java CircleMath
+
+# Ejecutar calculadora de hipotenusa
 java HypotenuseCalculator
+
+# Ejecutar generador de números aleatorios
 java RandomNumberGenerator
+
+# Ejecutar ejercicio de trigonometría
 java TrigonometryExercise
 ```
 
-Para compilar/ejecutar un archivo específico:
-
+#### Compilar y ejecutar un archivo individual:
 ```powershell
 javac NombreDelArchivo.java
 java NombreDeLaClase
 ```
 
-## Salidas de ejemplo
+### En macOS/Linux (Terminal)
 
-- IntegerOperations
-	- El resultado de la suma es: 45
-	- El resultado de la resta es: 20
-	- El resultado de la multiplicacion es: 150
-	- El resultado de la division es: 2
-	- El resultado del residuo es: 10
+```bash
+# Compilar todos los archivos
+javac *.java
 
-- FloatingPointOperations (radio 10.6, pi 3.14159f)
-	- El area del circulo es: 352.9890524
+# Ejecutar cualquier ejercicio
+java NombreDeLaClase
+```
 
-- TypeCastingExercise
-	- Double convertido a int: 100
-	- Int convertido a double: 80.0
+## 📊 Ejemplos de Salida
 
-- CharBooleanExercise
-	- El caracter es: M
-	- El valor Ascii del caracter es: 77
-	- Es Java divertido? true
+### IntegerOperations
+```
+El resultado de la suma es: 45
+El resultado de la resta es: 20
+El resultado de la multiplicacion es: 150
+El resultado de la division es: 2
+El resultado del residuo es: 10
+```
 
-- CircleMath (radio 7.5)
-	- La circunferencia del círculo es: 47.1239
-	- El área del círculo es: 176.7146
+### FloatingPointOperations
+```
+El area del circulo es: 352.9890524
+```
 
-- HypotenuseCalculator (catetos 3 y 4)
-	- La longitud de la hipotenusa es: 5.00
+### TypeCastingExercise
+```
+Double convertido a int: 100
+Int convertido a double: 80.0
+```
 
-- RandomNumberGenerator
-	- Un número aleatorio entre 0.0 y 1.0 es: 0.XXXXXXXX (varía en cada ejecución)
+### CharBooleanExercise
+```
+El caracter es: M
+El valor Ascii del caracter es: 77
+Es Java divertido? true
+```
 
-- TrigonometryExercise (45°)
-	- El ángulo en radianes es: 0.785398
-	- El seno del ángulo es: 0.707107
-	- El coseno del ángulo es: 0.707107
+### CircleMath
+```
+La circunferencia del círculo es: 47.1239
+El área del círculo es: 176.7146
+```
 
-## Estructura del proyecto
+### HypotenuseCalculator
+```
+La longitud de la hipotenusa es: 5.00
+```
+
+### RandomNumberGenerator
+```
+Un número aleatorio entre 0.0 y 1.0 es: 0.XXXXXXXX
+```
+*(El valor varía en cada ejecución)*
+
+### TrigonometryExercise
+```
+El ángulo en radianes es: 0.785398
+El seno del ángulo es: 0.707107
+El coseno del ángulo es: 0.707107
+```
+
+## 📁 Estructura del Proyecto
 
 ```
 Ejercicios-de-practica-1-java/
-├── README.md
-├── CharBooleanExercise.java
-├── CircleMath.java
-├── FloatingPointOperations.java
-├── HypotenuseCalculator.java
-├── IntegerOperations.java
-├── RandomNumberGenerator.java
-├── TrigonometryExercise.java
-├── TypeCastingExercise.java
-└── Ejercicios de Práctica 1.docx
+├── 📄 README.md                     # Documentación del proyecto
+├── ☕ CharBooleanExercise.java      # Ejercicio de char y boolean
+├── ☕ CircleMath.java               # Cálculos de círculo con Math.PI
+├── ☕ FloatingPointOperations.java  # Operaciones con punto flotante
+├── ☕ HypotenuseCalculator.java     # Calculadora de hipotenusa
+├── ☕ IntegerOperations.java        # Operaciones básicas con enteros
+├── ☕ RandomNumberGenerator.java    # Generador de números aleatorios
+├── ☕ TrigonometryExercise.java     # Ejercicios de trigonometría
+├── ☕ TypeCastingExercise.java      # Conversión de tipos
+└── 📝 Ejercicios de Práctica 1.docx # Documento con instrucciones
 ```
 
-## Conceptos de Java cubiertos
+## 🎯 Conceptos de Java Cubiertos
 
-- Tipos primitivos: `int`, `double`, `float`, `char`, `boolean`
-- Operadores aritméticos: `+`, `-`, `*`, `/`, `%`
-- Conversión de tipos: casting explícito e implícito
-- E/S básica: `System.out.println`, `System.out.printf`
-- Utilidades de `Math`: `PI`, `pow`, `sqrt`, `random`, `toRadians`, `sin`, `cos`
+### Tipos de Datos Primitivos
+- **`int`** - Números enteros
+- **`double`** - Números de punto flotante de doble precisión
+- **`float`** - Números de punto flotante de precisión simple
+- **`char`** - Caracteres individuales
+- **`boolean`** - Valores verdadero/falso
 
-## Contribuciones y licencia
+### Operadores Aritméticos
+- **`+`** - Suma
+- **`-`** - Resta
+- **`*`** - Multiplicación
+- **`/`** - División
+- **`%`** - Módulo (residuo)
 
-Sugerencias y mejoras son bienvenidas mediante issues o pull requests.
-Uso educativo.
+### Conversión de Tipos
+- **Casting explícito** - `(int) doubleVariable`
+- **Casting implícito** - Conversión automática
+- **Conversión char a int** - Para obtener valores ASCII
+
+### Entrada y Salida
+- **`System.out.println()`** - Imprimir con salto de línea
+- **`System.out.printf()`** - Imprimir con formato
+
+### Clase Math
+- **`Math.PI`** - Constante π (pi)
+- **`Math.pow(base, exponente)`** - Potenciación
+- **`Math.sqrt(numero)`** - Raíz cuadrada
+- **`Math.random()`** - Número aleatorio [0.0, 1.0)
+- **`Math.toRadians(grados)`** - Conversión grados a radianes
+- **`Math.sin(radianes)`** - Función seno
+- **`Math.cos(radianes)`** - Función coseno
+
+## 🎓 Objetivos de Aprendizaje
+
+Al completar estos ejercicios, los estudiantes habrán practicado:
+
+1. **Declaración y uso de variables** con diferentes tipos de datos
+2. **Operaciones matemáticas básicas** y su implementación en Java
+3. **Conversión entre tipos de datos** y manejo de casting
+4. **Uso de la clase Math** para operaciones matemáticas avanzadas
+5. **Formato de salida** usando `println` y `printf`
+6. **Conceptos de trigonometría** aplicados en programación
+7. **Generación de números aleatorios** para aplicaciones dinámicas
+
+## 🤝 Contribuciones y Uso
+
+### Para Estudiantes
+- Estos ejercicios están diseñados para uso educativo
+- Siéntete libre de modificar los valores y experimentar
+- Intenta crear variaciones de los ejercicios para practicar más
+
+### Para Instructores
+- Los ejercicios pueden ser utilizados como material de clase
+- Cada archivo es independiente y puede ser asignado por separado
+- Los comentarios en el código ayudan a explicar los conceptos
+
+### Mejoras y Sugerencias
+- Las sugerencias y mejoras son bienvenidas
+- Puedes crear **issues** para reportar problemas
+- Los **pull requests** con mejoras son apreciados
+
+## 📜 Licencia
+
+Este proyecto está destinado para uso educativo. Siéntete libre de usar, modificar y distribuir el código para fines de aprendizaje.
+
+---
+
+**¡Feliz programación! 🚀**
+
+*Recuerda: La práctica hace al maestro. Experimenta con los valores, modifica el código y observa cómo cambian los resultados.*
